@@ -34,16 +34,19 @@ body {
 
 .design-box {
     position: absolute;
-    top: 30%;
-    left: 25%;
+    top: 52%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
     height: 300px;
-}
-.design-box:not(:last-child){
-    background: radial-gradient(#eee, #ccc);
+    background: radial-gradient(#eee, #aaa);
     box-shadow: #aaa 0px 0px 20px;
 }
+.design-box.msg {
+    background: transparent;
+    box-shadow: none;
+}
+
 
 .design-box .text{
     text-align: center;
@@ -77,23 +80,18 @@ body {
     top: 45%;
 }
 .section-2 .design-box {
-    background-color: #fff;
     border-radius: 51% 49% 46% 54% / 30% 51% 49% 70%;
 }
 .section-3 .design-box {
-    background-color: #fff;
     border-radius: 82% 18% 84% 16% / 30% 51% 49% 70%;
 }
 .section-4 .design-box {
-    background-color: #fff;
     border-radius: 82% 18% 27% 73% / 30% 48% 52% 70%;
 }
 .section-5 .design-box {
-    background-color: #fff;
     border-radius: 53% 47% 92% 8% / 56% 67% 33% 44%;
 }
 .section-6 .design-box {
-    background-color: #fff;
     border-radius:47% 53% 54% 46% / 20% 19% 81% 80%;
 }
 
